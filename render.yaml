@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: shopwave-ecommerce
+    runtime: docker
+    plan: free
+    region: ohio
+    envVars:
+      - key: PORT
+        value: 8080
